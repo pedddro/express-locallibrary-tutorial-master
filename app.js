@@ -4,9 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
+var indexRouter = require('./api/index');
+var usersRouter = require('./api/users');
+var catalogRouter = require('./api/catalog');  //Import routes for "catalog" area of site
 
 var compression = require('compression');
 var helmet = require('helmet');
